@@ -1,0 +1,41 @@
+
+.profile{float:left; border: 5px solid red; margin: 30px}
+
+body{font-family:sans-serif}
+
+div.title{text-align: center}
+
+a:hover{
+    color:red; background-color: yellow;
+}
+
+span.utd{
+    color:red;font-weight:bold;
+}
+
+div.content{
+    background-color: white
+}
+
+div.education{
+    background-color: green
+}
+
+div.intro{
+    background-color:aqua
+}
+
+div.experience{
+    background-color: yellow
+}
+
+div.links{
+    background-color: deeppink
+}
+
+/*.profile,.content{
+    position: relative;margin-left:10px; margin-right:10px; width:98.0%;
+}*/
+.profile,.content{
+    position: relative; display: inline;float:left;
+}
